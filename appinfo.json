@@ -1,0 +1,39 @@
+{
+    "versionLabel": "1.1.2",
+    "uuid": "45f87c16-6ac9-413f-9412-7f7acab32a2d",
+    "appKeys": {
+        "show_week": 30,
+        "show_month": 31
+    },
+    "longName": "Today",
+    "versionCode": 2,
+    "capabilities": [
+        "configurable"
+    ],
+    "shortName": "Today",
+    "companyName": "dotar",
+    "watchapp": {
+        "watchface": true
+    },
+    "resources": {
+        "media": [
+            {
+                "menuIcon": true,
+                "type": "png",
+                "name": "IMAGE_MENU_ICON",
+                "file": "images/smush_menu_icon.png"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_BACKGROUND",
+                "file": "images/smush_background.png"
+            },
+            {
+                "characterRegex": "[0-9]",
+                "type": "font",
+                "name": "FONT_ARIAL_BOLD_62",
+                "file": "fonts/arialbd.ttf"
+            }
+        ]
+    }
+}
